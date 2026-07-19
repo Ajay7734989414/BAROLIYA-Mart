@@ -1,21 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BAROLIYA-Mart</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#00b761;
+padding:15px;
+color:white;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.search{
+padding:15px;
+}
+
+.search input{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:none;
+font-size:16px;
+}
+
+.banner{
+margin:15px;
+background:#00b761;
+color:white;
+padding:20px;
+border-radius:12px;
+text-align:center;
+}
+
+.category{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+padding:15px;
+}
+
+.box{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+</style>
+
 </head>
-<body style="margin:0;font-family:Arial;background:#f5f5f5;">
 
-<div style="background:#00b761;color:white;padding:18px;text-align:center;">
-<h1>🛒 BAROLIYA-Mart</h1>
-<p>Coming Soon...</p>
+<body>
+
+<header>
+🛒 BAROLIYA-Mart
+</header>
+
+<div class="search">
+<input type="text" placeholder="🔍 Product Search">
 </div>
 
-<div style="padding:20px;text-align:center;">
-<h2>Website Upgrade in Progress 🚀</h2>
-<p>Professional Version Coming Soon</p>
+<div class="banner">
+<h2>Welcome To BAROLIYA-Mart</h2>
+<p>Gaon Ka Online Kirana Store</p>
 </div>
 
+<div class="category">
+
+<div class="box">🥛 Dairy</div>
+
+<div class="box">🥦 Vegetables</div>
+
+<div class="box">🍚 Grocery</div>
+
+<div class="box">🥤 Drinks</div>
+
+<div class="box">🍪 Snacks</div>
+
+<div class="box">🧴 Daily Needs</div>
+
+</div>
+<h2 style="padding:15px;">🔥 Popular Products</h2>
+
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:15px;">
+
+<div style="background:white;padding:10px;border-radius:10px;text-align:center;box-shadow:0 0 8px rgba(0,0,0,.1);">
+<img src="https://via.placeholder.com/120" width="100">
+<h3>Aashirvaad Aata</h3>
+<p>₹350</p>
+<button style="background:#00b761;color:white;border:none;padding:10px 15px;border-radius:8px;">Add To Cart</button>
+</div>
+
+<div style="background:white;padding:10px;border-radius:10px;text-align:center;box-shadow:0 0 8px rgba(0,0,0,.1);">
+<img src="https://via.placeholder.com/120" width="100">
+<h3>Fortune Oil</h3>
+<p>₹180</p>
+<button style="background:#00b761;color:white;border:none;padding:10px 15px;border-radius:8px;">Add To Cart</button>
+</div>
+
+</div>
 </body>
 </html>
