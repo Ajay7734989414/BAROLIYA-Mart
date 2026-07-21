@@ -125,6 +125,11 @@ function addToCart(){
   document.getElementById("cartCount").innerHTML = "🛒 Cart (" + cart + ")";
   alert("Product Cart Me Add Ho Gaya");
 }
+    document.querySelectorAll("button").forEach(function(btn){
+  btn.onclick = function(){
+    addToCart();
+  };
+});
   </script>
 </body>
 </html>
